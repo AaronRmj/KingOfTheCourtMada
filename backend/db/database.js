@@ -33,11 +33,6 @@ const connectDB = async () =>{
 }
 
 
-//misy ve ilay connection avant de l'utiliser
-const getDB = () =>{
-    if(!db)
-        throw new Error ("Database not initialized, Call connectDB() first  ");
-    return db;
-}
 
-module.exports = {connectDB,getDB}
+
+module.exports = {connectDB}
