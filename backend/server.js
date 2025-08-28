@@ -25,3 +25,5 @@ connectDB().then(()=>{
     console.error('Echec demarrage serveur', error);
     process.exit(1);
 })
+
+
